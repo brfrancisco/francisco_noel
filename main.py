@@ -88,7 +88,7 @@ else:
         if select_person == 'Paul':
             st.markdown("![Alt Text](https://media.giphy.com/media/5gzCGDLoZg5jwppe3a/giphy.gif)")
         else:
-            st.markdown("![Alt Text](https://media.giphy.com/media/jxOx37spvI9h94pnly/giphy.gif)")
+            st.markdown("![Alt Text](https://media.giphy.com/media/ZG5Si43qz4LLIeu7jF/giphy.gif)")
 
     if st.button('Recommence'):
         st.session_state['question_number'] = 0
