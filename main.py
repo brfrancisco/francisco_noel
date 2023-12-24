@@ -17,7 +17,7 @@ def parameters_question(person):
         ["Quel bijou prefere Morgane ?",
                     ["or", 'argent', 'bronze']]
     ]
-    right_answer_fab = [2, 14, 'thérapies comportementales, cognitives et émotionnelle', 'Charlie - Alan', 'argent]
+    right_answer_fab = [2, 14, 'thérapies comportementales, cognitives et émotionnelle', 'Charlie - Alan', 'argent']
 
     lis_question_paul = [
         ['Combien de ligue des champions ont été remportées par le Barca ?',
