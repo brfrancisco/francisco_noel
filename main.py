@@ -82,8 +82,8 @@ if st.session_state['question_number']<len(lis_question):
         st.rerun()
 else:
     nb_rep = check_res(right_answer)
-    st.markdown(f"<h3>Nombre de réponses juste : {nb_rep} sur 4</h3>", unsafe_allow_html=True)
-    if nb_rep >= 2:
+    st.markdown(f"<h3>Nombre de réponses juste : {nb_rep} sur 5</h3>", unsafe_allow_html=True)
+    if nb_rep >= 3:
         plot_right_answer()
     else:
         plot_bad_answer()
