@@ -13,21 +13,25 @@ def parameters_question(person):
                  'thérapies comportementales et cognitives',
                  'trouble comportementales, cognitives et émotionnelle']],
         ["Comment s'appelle les frères de la série Mon Oncle Charlie ?",
-                    ["Charlie - Alan", 'Charles - Alain', 'Charles - Alan', 'Charlie - Alain']]
+                    ["Charlie - Alan", 'Charles - Alain', 'Charles - Alan', 'Charlie - Alain']],
+        ["Quel bijou prefere Morgane ?",
+                    ["or", 'argent', 'bronze']]
     ]
-    right_answer_fab = [2, 14, 'thérapies comportementales, cognitives et émotionnelle', 'Charlie - Alan']
+    right_answer_fab = [2, 14, 'thérapies comportementales, cognitives et émotionnelle', 'Charlie - Alan', 'argent]
 
     lis_question_paul = [
         ['Combien de ligue des champions ont été remportées par le Barca ?',
             [3, 4, 5, 6]],
         ['Quelle est la date de la bataille de Waterloo ?',
             ["20 Juin 1815", "18 Juin 1816", "20 Juin 1816", "18 Juin 1815"]],
-        ["En quelle année a commencé la série : Mon Oncle Charlie ?",
-                [2002, 2003, 2004, 2005]],
+        ["Quel est l'âge de noisette ?",
+                [5, 6, 7, 8]],
         ["Comment s'appelle le directeur de la série Ici tout commence ?",
-                    ["Emmanuel Teyssier", 'Thomas Teyssier', 'Manuel Teyssier', 'Augustin Galiana']]
+                    ["Emmanuel Teyssier", 'Thomas Teyssier', 'Manuel Teyssier', 'Augustin Galiana']],
+        ["Quel aliment n'aime pas Morgane ?",
+                    ["chocolat", 'fraise', 'caramel', 'vanille']]
     ]
-    right_answer_paul = [5, 14, '18 Juin 1815', 'Emmanuel Teyssier']
+    right_answer_paul = [5, '18 Juin 1815', 6, 'Emmanuel Teyssier', 'chocolat']
 
     if person == 'Paul':
         return lis_question_paul, right_answer_paul
