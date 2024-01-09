@@ -60,7 +60,7 @@ def plot_bad_answer():
 
 st.title('Buon Compleanno Chiara!')
 st.image('anniv.jpg')
-st.markdown('<h1>Bienvenue à ce quizz fais par ta maman pour vérifier que tu mérites ton cadeau ! </h1>',
+st.markdown('<h1>Bienvenue à ce quizz fait par ta maman pour vérifier que tu mérites ton cadeau ! </h1>',
             unsafe_allow_html=True)
 #select_person = st.selectbox('Qui es tu', ['Paul', 'Fabienne'])
 #lis_question, right_answer = parameters_question(select_person)
